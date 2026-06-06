@@ -6,6 +6,13 @@ A decentralized application (dApp) for tokenizing real estate assets on the Stel
 
 ---
 
+## Deployed Contract Address
+
+* **Contract ID:** `CAB33EN5E3LAXPDH4CHNO2QBLFHFNPKJQTE6A24L7JYHNUKW2A4QAKBX`
+* **Stellar Expert Explorer:** [https://stellar.expert/explorer/testnet/contract/CAB33EN5E3LAXPDH4CHNO2QBLFHFNPKJQTE6A24L7JYHNUKW2A4QAKBX](https://stellar.expert/explorer/testnet/contract/CAB33EN5E3LAXPDH4CHNO2QBLFHFNPKJQTE6A24L7JYHNUKW2A4QAKBX)
+
+---
+
 ## Tech Stack
 
 | Layer           | Technology                                   |
@@ -133,7 +140,7 @@ This deploys the compiled WASM to the Stellar Testnet and returns a **Contract I
 
 Example output:
 ```
-CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2OOTGNIH
+CAB33EN5E3LAXPDH4CHNO2QBLFHFNPKJQTE6A24L7JYHNUKW2A4QAKBX
 ```
 
 ### Optional: Initialize via CLI
@@ -177,7 +184,7 @@ cp ../.env.example .env.local
 Open `.env.local` in your editor and paste the Contract ID from Step 3:
 
 ```env
-NEXT_PUBLIC_CONTRACT_ID=CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2OOTGNIH
+NEXT_PUBLIC_CONTRACT_ID=CAB33EN5E3LAXPDH4CHNO2QBLFHFNPKJQTE6A24L7JYHNUKW2A4QAKBX
 NEXT_PUBLIC_NETWORK_PASSPHRASE=Test SDF Network ; September 2015
 NEXT_PUBLIC_RPC_URL=https://soroban-testnet.stellar.org
 NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org

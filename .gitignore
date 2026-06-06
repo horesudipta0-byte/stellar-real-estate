@@ -1,0 +1,22 @@
+# Node.js dependencies and build outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock.bk
+
+# OS files
+.DS_Store
+Thumbs.db
